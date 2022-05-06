@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import UseEffectCounter from './components/UseEffectCounter';
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import UseStateWithArrays from './components/UseStateWithArrays';
-import UseStateWithObjects from './components/UseStateWithObjects';
+// import UseStateWithObjects from './components/UseStateWithObjects';
 
 function App() {
   return (
     <div className="App">
       {/* <ControlledFormHooks /> */}
       {/* <UseStateWithArrays /> */}
-      <UseStateWithObjects />
+      {/* <UseStateWithObjects /> */}
+      <UseEffectCounter />
     </div>
   );
 }
